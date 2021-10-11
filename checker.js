@@ -1,6 +1,7 @@
 $(document).ready(function(){
   $(".form-wrapper .button").click(function(){
     var button = $(this);
+    
     var currentSection = button.parents(".section");
     var currentSectionIndex = currentSection.index();
     var headerSection = $('.steps li').eq(currentSectionIndex);
